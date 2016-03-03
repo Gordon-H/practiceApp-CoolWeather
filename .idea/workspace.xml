@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidConfiguredLogFilters">
+    <filters>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="info" />
+        <option name="name" value="info" />
+        <option name="packageNamePattern" value="" />
+        <option name="pid" value="" />
+      </filter>
+    </filters>
+  </component>
   <component name="AndroidLayouts">
     <shared>
       <config />
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="info" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29f04f27-d3f7-4e02-94da-f942aa1bcaff" name="Default" comment="" />
@@ -107,11 +119,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WeatherActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WeatherActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/coolweather/app/activity/WeatherActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.5384614">
-              <caret line="88" column="56" selection-start-line="88" selection-start-column="56" selection-end-line="88" selection-end-column="56" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
               <folding>
                 <element signature="method#init#0;class#WeatherActivity#0" expanded="false" />
                 <element signature="e#4548#4733#0" expanded="true" />
@@ -136,16 +148,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChooseAreaActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ChooseAreaActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/coolweather/app/activity/ChooseAreaActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="81" column="77" selection-start-line="81" selection-start-column="77" selection-end-line="81" selection-end-column="77" />
+            <state vertical-scroll-proportion="0.44230768">
+              <caret line="54" column="91" selection-start-line="54" selection-start-column="91" selection-end-line="54" selection-end-column="91" />
               <folding>
-                <element signature="e#2518#3395#0" expanded="true" />
-                <element signature="e#3394#3395#0" expanded="true" />
-                <element signature="e#6232#6786#0" expanded="true" />
-                <element signature="e#6785#6786#0" expanded="true" />
+                <element signature="e#2764#3641#0" expanded="true" />
+                <element signature="e#3640#3641#0" expanded="true" />
+                <element signature="e#6478#7032#0" expanded="true" />
+                <element signature="e#7031#7032#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1736,10 +1748,10 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/coolweather/app/util/HttpUtil.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/choose_area.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/weather_layout.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/coolweather/app/activity/ChooseAreaActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/coolweather/app/activity/WeatherActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/coolweather/app/util/Utility.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/coolweather/app/activity/WeatherActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/coolweather/app/activity/ChooseAreaActivity.java" />
       </list>
     </option>
   </component>
@@ -2275,10 +2287,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2518#3395#0" expanded="true" />
-            <element signature="e#3394#3395#0" expanded="true" />
-            <element signature="e#6232#6786#0" expanded="true" />
-            <element signature="e#6785#6786#0" expanded="true" />
+            <element signature="e#2764#3641#0" expanded="true" />
+            <element signature="e#3640#3641#0" expanded="true" />
+            <element signature="e#6478#7032#0" expanded="true" />
+            <element signature="e#7031#7032#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2479,19 +2491,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/coolweather/app/activity/ChooseAreaActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="81" column="77" selection-start-line="81" selection-start-column="77" selection-end-line="81" selection-end-column="77" />
-          <folding>
-            <element signature="e#2518#3395#0" expanded="true" />
-            <element signature="e#3394#3395#0" expanded="true" />
-            <element signature="e#6232#6786#0" expanded="true" />
-            <element signature="e#6785#6786#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/coolweather/app/util/HttpUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2534,14 +2533,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/coolweather/app/activity/WeatherActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5384614">
-          <caret line="88" column="56" selection-start-line="88" selection-start-column="56" selection-end-line="88" selection-end-column="56" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
           <folding>
             <element signature="method#init#0;class#WeatherActivity#0" expanded="false" />
             <element signature="e#4548#4733#0" expanded="true" />
             <element signature="e#4732#4733#0" expanded="true" />
             <element signature="e#4868#5049#0" expanded="true" />
             <element signature="e#5048#5049#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/coolweather/app/activity/ChooseAreaActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44230768">
+          <caret line="54" column="91" selection-start-line="54" selection-start-column="91" selection-end-line="54" selection-end-column="91" />
+          <folding>
+            <element signature="e#2764#3641#0" expanded="true" />
+            <element signature="e#3640#3641#0" expanded="true" />
+            <element signature="e#6478#7032#0" expanded="true" />
+            <element signature="e#7031#7032#0" expanded="true" />
           </folding>
         </state>
       </provider>
