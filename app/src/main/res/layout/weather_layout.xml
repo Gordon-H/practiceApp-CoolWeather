@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="#363d53">
+        <TextView
+            android:id="@+id/city_name"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:textSize="24sp"/>
+        <Button
+            android:id="@+id/change_city"
+            android:text="Change city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#5d8eca">
+        <TextView
+            android:id="@+id/publish_time"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:paddingTop="5sp"
+            android:paddingRight="5dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="hello"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/refresh"
+            android:layout_below="@+id/publish_time"
+            android:layout_alignParentRight="true"
+            android:text="refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:id="@+id/weather_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/date"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:text="hello"
+                android:paddingLeft="100dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/weather"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:layout_gravity="center"
+                android:text="hello"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/temperature"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:text="hello"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
